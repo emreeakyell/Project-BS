@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar {
+  background-image: linear-gradient(to right, #5b7835, #9cd156);
+  padding: 0 !important;
+}
+
+.nav-logo {
+  height: 50px;
+}
+
+.navbar-nav li {
+  padding: 0 10px;
+}
+
+.navbar-nav li a {
+  color: black !important;
+  font-weight: 500;
+  float: right;
+  text-align: left;
+}
+
+.navbar-toggler {
+  outline: none !important;
+}
+
+/*-- banner section-- */
+#banner {
+  background-image: linear-gradient(to right, #5b7835, #9cd156);
+  color: black;
+  padding-top: 5%;
+}
+
+.promo-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 100px;
+}
+
+#banner a {
+  color: black;
+  text-decoration: none;
+}
+/* ---service section--- */
+#services {
+  padding: 80px 0;
+}
+
+.service-img {
+  width: 100px;
+  margin-top: 20px;
+}
+.services {
+  padding: 20px;
+}
+
+.services h4 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.title::before {
+  content: "";
+  background: #5b7835;
+  height: 5px;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translateY(63px);
+}
+
+.title::after {
+  content: "";
+  background: #5b7835;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translateY(8px);
+}
+
+#services .btn-primary {
+  box-shadow: none;
+  padding: 8px 25px;
+  border: none;
+  border-radius: 20px;
+  background-image: linear-gradient(to right, #5b7835, #9cd156);
+}
+/* ---About Us--- */
+#about-us {
+  background: #f8f9fa;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.about-title {
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 8px;
+}
+#about-us ul li {
+  margin: 10px 0;
+}
+#about-us ul {
+  margin-left: 20px;
+}
